@@ -49,7 +49,7 @@ var library = [
 
 ### Task 5:
 
-**Find the total cost of  the items in the given cart:**
+**Given the following cart containing an array of items:**
 
 ```javascript
 var cart = [ 
@@ -69,5 +69,13 @@ var cart = [
        quantity: 2
    }];
    ```
+
+a) Write a function that takes a new item and adds it to the cart.
+
+b) Write a function that sorts the cart items by a given property.
+
+c) Create a function called findByName( name ) that will return an array of matching items for the searched name.
+
+d) Write a function that returns the total cost of the items in the cart.
 
 ------
