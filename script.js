@@ -22,3 +22,30 @@ function checkEmail(emailString){
 }
 console.log(checkEmail("john@smith.com"));
 console.log(checkEmail("johnsmith.com"));
+
+//Task 4
+var library = [ 
+   {
+       author: 'Bill Gates',
+       title: 'The Road Ahead',
+       readingStatus: true
+   },
+   {
+       author: 'Steve Jobs',
+       title: 'Walter Isaacson',
+       readingStatus: true
+   },
+   {
+       author: 'Suzanne Collins',
+       title:  'Mockingjay: The Final Book of The Hunger Games', 
+       readingStatus: false
+   }];
+function getReadingStatus(index)
+{
+     return [library[index].author,library[index].title,library[index].readingStatus];
+      return library[index].title;
+    return library[index].readingStatus;
+}
+console.log(getReadingStatus(0));
+console.log(getReadingStatus(1));
+console.log(getReadingStatus(2));
